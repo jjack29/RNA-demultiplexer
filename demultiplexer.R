@@ -61,9 +61,3 @@ extract_reads_with_barcodes <- function(path_to_input_fastq, path_to_barcodes_tx
     cat(paste0("All done, find fastq file containing all reads with the specified barcodes at this location: ", path_to_output_fastq))
   }
 }
-
-extract_reads_with_barcodes("~/rawSeqData/rawData/20_R1.fastq", "~/rawSeqData/rawData/barcodes.txt", "~/rawSeqData/rawData/output.fastq", length_UMI = 6, length_trail = 6)
-
-
-
-

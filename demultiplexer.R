@@ -1,7 +1,5 @@
 #' Searches a fastq file for reads containing specified barcodes
-#'
 #' @author Joshua Jackson <jjack29_uwo.ca>
-#' @examples
 
 extract_reads_with_barcodes <- function(path_to_input_fastq_r1, path_to_input_fastq_r2, path_to_barcodes_txt, path_to_output_fastq_r1, path_to_output_fastq_r2, length_UMI = 0, char_trail = "T", length_trail = 0, provide_updates = TRUE) {
   # Loads package with enhanced version of data.frame structure (speeding up data manipulation)
